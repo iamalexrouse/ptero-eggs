@@ -17,3 +17,4 @@ RUN apt-get update \
 
 ENV PATH="/usr/games:${PATH}"
 WORKDIR /mnt/server
+ENTRYPOINT [ "steamcmd" ]
